@@ -1,0 +1,46 @@
+.fz20 {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.mainBanner {
+    p {
+        margin: 74px 0;
+    }
+
+}
+
+.four_one {
+    background-color: #020202 !important;
+
+    a {
+        color: white;
+    }
+
+    #logo {
+        svg {
+            width: 250px;
+
+            path,
+            polygon {
+                fill: white !important;
+            }
+        }
+    }
+}
+
+#logo {
+    margin: 44px 0;
+
+    svg {
+        width: 250px;
+
+        path {}
+    }
+}
+
+.indexPage {
+    #wrapper {
+        margin-top: 74px;
+    }
+}
