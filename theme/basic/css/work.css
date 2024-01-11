@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.fz20 {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.mainBanner p {
+  margin: 74px 0;
+}
+
+.four_one {
+  background-color: #020202 !important;
+}
+.four_one a {
+  color: white;
+}
+.four_one #logo svg {
+  width: 250px;
+}
+.four_one #logo svg path,
+.four_one #logo svg polygon {
+  fill: white !important;
+}
+
+#logo {
+  margin: 44px 0;
+}
+#logo svg {
+  width: 250px;
+}
+.indexPage #wrapper {
+  margin-top: 74px;
+}
+
+#ft_wr {
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.mainLatest .subBanner .container {
+  margin-bottom: 50px;
+}
+
+#ft {
+  margin-top: 10rem;
+}
+
+#container_title span {
+  display: none;
+}
+
+#bo_v_con {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+#bo_v {
+  background: #000;
+}
+
+/* 폰트어썸 되살리기 */
+#ctt {
+  margin: 10px 0;
+  padding: 20px;
+  background: #000 !important;
+  color: white !important;
+}
+
+.tbl_head01 tr td {
+  color: #ffffff;
+  background-color: black !important;
+}
+
+.tbl_wrap table {
+  background: none !important;
+  color: white !important;
+}
+
+.sv_member {
+  color: white;
+}
+
+#bo_v_top ul {
+  background: black;
+  color: white;
+}
+
+#bo_v_title .bo_v_tit {
+  color: white;
+}
+
+#bo_list_total {
+  color: white;
+}
+
+.btn_b01:hover, .btn_b01:hover {
+  color: #ffd900;
+}
+
+.bo_btn_top {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#gnb .gnb_1da ::after {
+  color: #ffd900 !important;
+  list-style: none !important;
+}
