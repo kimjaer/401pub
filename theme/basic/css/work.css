@@ -94,8 +94,12 @@
   color: white;
 }
 
-.btn_b01:hover, .btn_b01:hover {
-  color: #ffd900;
+#gnb:hover,
+.btn_b01:hover,
+.btn_b01:hover,
+.gnb_1dli a:hover {
+  color: #ffd900 !important;
+  text-decoration: none !important;
 }
 
 .bo_btn_top {
@@ -103,7 +107,7 @@
   align-items: center !important;
 }
 
-#gnb .gnb_1da ::after {
+#gnb .gnb_1dali:hover > a {
   color: #ffd900 !important;
   list-style: none !important;
 }
