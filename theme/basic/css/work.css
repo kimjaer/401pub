@@ -102,14 +102,70 @@
   text-decoration: none !important;
 }
 
+.gnb_1dli a .kr {
+  display: none;
+}
+.gnb_1dli a .en {
+  display: block;
+}
+.gnb_1dli a:hover .en {
+  display: none;
+}
+.gnb_1dli a:hover .kr {
+  display: block;
+}
+
+#gnb .gnb_1dli {
+  line-height: 55px;
+  padding: 0px;
+  position: relative;
+  width: 210px !important;
+  text-align: center;
+}
+
+.gnb_1da {
+  display: block;
+  font-weight: bold;
+  /* padding: 0 20px; */
+  text-decoration: none;
+  font-size: 28px;
+  width: 210px !important;
+  text-align: center;
+}
+
+.ctt {
+  align-items: center;
+}
+
+#bo_vc article {
+  margin: 0;
+  background-color: white;
+}
+
+.cmt_btn span.total:after {
+  background: none;
+  border-radius: 15px solid #ccc !important;
+}
+
+#cd#bo_vc button span .bo_vc_act > li {
+  color: black !important;
+}
+
+.more_opt li a {
+  background: none !important;
+  color: white !important;
+}
+
 .bo_btn_top {
   justify-content: center !important;
   align-items: center !important;
 }
 
-#gnb .gnb_1dali:hover > a {
-  color: #ffd900 !important;
-  list-style: none !important;
+#gnb .gnb_1dali > a .en {
+  display: block;
+}
+#gnb .gnb_1dali > a .kr {
+  display: none;
 }
 
 #ft {

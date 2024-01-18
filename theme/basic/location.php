@@ -14,7 +14,6 @@ include_once(G5_THEME_PATH.'/head.php');
 >
 
 <div class="location_map">
-    <!-- <p class="font-size-30">찾아 오시는 길</p><br> -->
 <div id="map" style="width:100%;height:400px;"></div>
 <br>
 <br>

@@ -119,6 +119,8 @@
     color: white;
 }
 
+
+// gnb
 #gnb,
 .btn_b01, 
 .btn_b01,
@@ -129,19 +131,99 @@
 }
 }
 
+.gnb_1dli a{
+    .kr{
+        display: none;
+    }
+    .en{
+        display: block;
+    }
+    &:hover{
+        .en{
+            display: none;
+        }
+        .kr{
+            display: block;
+        }
+    }
+}
+#gnb .gnb_1dli {
+    line-height: 55px;
+    padding: 0px;
+    position: relative;
+    width: 210px !important;
+    text-align: center;
+}
+.gnb_1da {
+    display: block;
+    font-weight: bold;
+    /* padding: 0 20px; */
+    text-decoration: none;
+    font-size: 28px;
+    width: 210px !important;
+    text-align: center;
+}
+
+//menu
+.ctt {
+    align-items: center;
+}
 
 
+//익명게시판
+#bo_vc article {
+    margin: 0; 
+    background-color: white;
+    
+}
 
+.cmt_btn span.total:after {
+    // position: absolute;
+    // bottom: -17px;
+    // left: 0;
+    // display: inline-block;
+    background: none;
+    border-radius: 15px solid #ccc !important;
+
+} 
+
+#cd#bo_vc button span .bo_vc_act>li{
+    color: black !important;
+}
+
+.more_opt li a {
+    background: none !important;
+    color: white !important;
+}
+// #bo_vc article {
+//     border-bottom-left-radius: 3px;
+//     border-bottom-right-radius: 3px;
+// }
+// .cmt_btn {
+//     border-start-start-radius: 3px;
+//     border-start-end-radius: 3px;
+// }
+
+
+// location
 .bo_btn_top{
     justify-content: center !important;
     align-items: center !important;
 }
 
+#gnb .gnb_1dali>a {  
 
-#gnb .gnb_1dali:hover>a {
-    color: #ffd900 !important;
-    list-style: none !important;
+    .en{
+        display: block;
+    }
+    .kr{
+        display: none;
+    }
 }
+
+
+
+
 
 #ft {
     margin-top: 5rem !important;
@@ -152,3 +234,8 @@
     color: white;
     font-size: large;
 }
+
+
+// 할 일 (ft)→1. 전화번호 지우기   2.인스타 아이콘 넣고 url연결   3.네이버 플레이스 넣기
+// akply 익명게시판으로 바꾸기 → 이름 바꿈 
+// 401페이지 이벤트 페이지로 바꾸기..? → 일단 이름만 바꿈

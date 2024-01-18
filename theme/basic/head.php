@@ -113,7 +113,13 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     $add_class = (isset($row['sub']) && $row['sub']) ? 'gnb_al_li_plus' : '';
                 ?>
                 <li class="gnb_1dli <?php echo $add_class; ?>" style="z-index:<?php echo $gnb_zindex--; ?>">
-                    <a href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>" class="gnb_1da"><?php echo $row['me_name'] ?></a>
+                    <a href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>" class="gnb_1da">
+                    <?php 
+                    $str_arr = explode('|', $row['me_name']); ?>
+                    
+                    <span class="en"><? echo $str_arr[0] ?></span>
+                    <span class="kr"><? echo $str_arr[1] ?></span>
+                    </a>
                     <?php
                     $k = 0;
                     foreach( (array) $row['sub'] as $row2 ){
