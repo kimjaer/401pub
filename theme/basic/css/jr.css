@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+}
+/* .gnb_1da {
+    width: 1px !important;
+} */
+
+@media (max-width : 500px) {
+    /* .gnb_1da {
+        width: 1px !important;
+    } */
+    .gnb_1dli a .en {
+        font-size: 1rem;
+    }
+    .gnb_1dli a .kr {
+        font-size: 1rem;
+    }
+    .tbl_head01 thead th {
+        padding: unset;
+    }
+}

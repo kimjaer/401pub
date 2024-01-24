@@ -764,7 +764,7 @@ a.gnb_2da:hover {
 
 /* 하단 레이아웃 */
 #ft {
-  background: #212020;
+  /* background: #212020; */
   margin: 0 auto;
   text-align: center
 }

@@ -94,7 +94,7 @@ add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
-
+<link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL.'/jr.css' ?>" >
 <link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL.'/work.min.css' ?>" >
 <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ezxpxucqfw"></script>
 </head>
