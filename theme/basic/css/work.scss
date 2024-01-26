@@ -9,6 +9,30 @@
 .mainBanner {
     p {
         margin: 74px 0;
+
+        @media (max-width:768px) {
+            font-size: 18px !important;
+        }
+        @media (max-width:420px) {
+            font-size: 15px !important;
+
+        }
+    }
+    @media (max-width:991px) {
+        img{
+            width: 62rem !important;
+            height: auto !important;
+        }}
+    
+    @media (max-width:768px) {
+        img{
+            width: 48rem !important;
+        }
+    }
+    @media (max-width:420px) {
+        img{
+            width: 27rem !important;
+        }
     }
 
 }
@@ -22,8 +46,15 @@
 
     #logo {
         svg {
-            width: 250px;
-
+            @media (min-width:991px){
+                width: 250px;
+            }
+            @media (max-width:768px) {
+                width: 240px !important;
+            }
+            @media (max-width:420px) {
+                width: 200px !important;
+            }
             path,
             polygon {
                 fill: white !important;
@@ -56,6 +87,7 @@
 
 .mainLatest .subBanner .container{
     margin-bottom: 50px;
+    
 }
 
 #ft{
@@ -263,22 +295,20 @@ a.btn, .btn {
 .ctt {
     align-items: center;
 }
-@media (max-width:991px) {
+
+
+@media (max-width:768px) {
     .event401 span{
-        font-size: 23px !important;
+        font-size: 22px !important;
     }
 }
-
-// @media (max-width:768px) {
-//     .event401 span{
-//         font-size: 21px !important;
-//     }
-// }
 @media (max-width:420px) {
     .event401 span{
         font-size: 18px !important;
     }
 }
+
+//main swiper
 
 
 

@@ -7,6 +7,32 @@
 .mainBanner p {
   margin: 74px 0;
 }
+@media (max-width: 768px) {
+  .mainBanner p {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 420px) {
+  .mainBanner p {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 991px) {
+  .mainBanner img {
+    width: 62rem !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .mainBanner img {
+    width: 48rem !important;
+  }
+}
+@media (max-width: 420px) {
+  .mainBanner img {
+    width: 27rem !important;
+  }
+}
 
 .four_one {
   background-color: #020202 !important;
@@ -14,8 +40,20 @@
 .four_one a {
   color: white;
 }
-.four_one #logo svg {
-  width: 250px;
+@media (min-width: 991px) {
+  .four_one #logo svg {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .four_one #logo svg {
+    width: 240px !important;
+  }
+}
+@media (max-width: 420px) {
+  .four_one #logo svg {
+    width: 200px !important;
+  }
 }
 .four_one #logo svg path,
 .four_one #logo svg polygon {
@@ -241,9 +279,9 @@ a.btn, .btn {
   align-items: center;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .event401 span {
-    font-size: 23px !important;
+    font-size: 22px !important;
   }
 }
 @media (max-width: 420px) {

@@ -19,12 +19,10 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
     <div id="ft_wr">
         <a href="https://www.instagram.com/401pub_?igsh=MWxobDRjdDBveGhobg==">
-            <img src="/kjr/img/insta_logo.png" alt="" class=" "></img></a> <br><br>
+            <img src="/kjr/img/insta_logo.png" alt=""></img></a> <br><br>
             401pub<br>
-            사업자등록번호<br>
             경기 광주시 경안로 8-2 4층<br>
-            Copyright © 401pub. All rights reserved.<br>
-
+        <a href="https://naver.me/I54Q9PhH">https://naver.me/I54Q9PhH</a>
     </div>      
     
     
