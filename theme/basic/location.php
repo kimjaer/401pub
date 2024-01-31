@@ -22,7 +22,9 @@ include_once(G5_THEME_PATH.'/head.php');
 버거킹 옆 골목으로 들어오시면<br>
 다한차이나 건물(OK빌딩) 4층 입니다!<br>
 
-(902코인노래방 위 4층!)</p>
+(902코인노래방 위 4층!)</p><br><br>
+
+<a href="https://naver.me/I54Q9PhH"> !click ☞ <b>네이버플레이스로 보기</b> ☜ click! </a>
 </div>
 
 
