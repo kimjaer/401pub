@@ -35,6 +35,7 @@ header("Pragma: no-cache"); // HTTP/1.0
 <html lang="ko">
 <head>
 <meta charset="utf-8">
+
 <?php
 
     echo '<meta name="viewport" id="meta_viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10">'.PHP_EOL;
@@ -50,6 +51,7 @@ if($config['cf_add_meta'])
 ?>
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo G5_THEME_URL.'/asset/boot.css' ?>" >
+<link rel="icon" type="image/x-icon" href="img/401favi/favicon-32x32.png" />
 <?php
 
 
